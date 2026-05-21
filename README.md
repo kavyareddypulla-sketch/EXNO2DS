@@ -39,7 +39,9 @@ print("\nDataset Loaded Successfully\n")
 ```
 data.head()
 ```
+
 <img width="815" height="185" alt="image" src="https://github.com/user-attachments/assets/d4b8d680-74b4-4d76-ab29-9cc51fbdf19d" />
+
 ```
 print("\nDataset Info:\n")
 data.info()
