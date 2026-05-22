@@ -167,6 +167,39 @@ plt.show()
 
 ```
 
+print("\nCross Tabulation: SibSp vs Survived\n")
+pd.crosstab(data["SibSp"], data["Survived"]
+
+```
+
+<img width="345" height="282" alt="image" src="https://github.com/user-attachments/assets/2f5d6539-b293-4fe6-bbe3-02042a30c499" />
+
+```
+
+print("\nCross Tabulation: Pclass vs Survived\n")
+pd.crosstab(data["Pclass"], data["Survived"]
+
+```
+
+
+<img width="310" height="211" alt="image" src="https://github.com/user-attachments/assets/44c3d90f-bd2e-4c8f-8257-289afba9aaca" />
+
+```
+
+plt.figure(figsize=(8,6))
+correlation_matrix = data.select_dtypes(include=np.number).corr()
+sns.heatmap(
+correlation_matrix,
+annot=True,
+cmap="coolwarm"
+)
+plt.show()
+plt.title("Correlation Heatmap - Titanic Dataset")
+
+```
+
+<img width="676" height="545" alt="image" src="https://github.com/user-attachments/assets/7141760a-06bf-43b8-b1f6-0e7dc5137a77" />
+
 
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
