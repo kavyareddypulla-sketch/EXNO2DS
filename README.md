@@ -203,3 +203,5 @@ plt.title("Correlation Heatmap - Titanic Dataset")
 
 # RESULT
         
+Thus performing Exploratory Data Analysis on the given data set.
+
